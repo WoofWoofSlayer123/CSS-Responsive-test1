@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Responsive :)</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        *{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .header, .footer{
+            font-size: 20px;
+            background-color: red;
+            color: white;
+        }
+        .body{
+            display: flex;
+            
+        }
+        .body > div{
+            background-color: PINK;
+            margin: 10px;
+            padding: 25px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        @media screen and (width > 900px){
+            .header{
+                background-color: aqua;
+                color: black;
+            }
+        }
+        @media screen and (width < 900px) {
+            .footer{
+                background-color: green;
+                color: black;
+            }
+            .body{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Computer View</h1>
+    </div>
+    <div class="body">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+    </div>
+    <div class="footer">
+        <h1>Mobile View</h1>
+    </div>
+</body>
+</html>
