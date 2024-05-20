@@ -40,15 +40,17 @@
 			flex-direction: column;
 			text-align: center;
 		}
-		#About #bout_sect{
+		#About{
+			margin-top: 10px;
+			height: 100%;
+			font-size: 20px;
+		}
+		#bout_sect{
 			position: absolute;
 			top: 0;
 			bottom: 0;
 			left: 0;
 			right: 0;
-			margin-top: 10px;
-			height: 100%;
-			
 			display: flex;
 			padding-top: 50%;
 			justify-content: center;
@@ -56,28 +58,53 @@
 			flex-direction: column;
 			text-align: center;
 		}
+		#sidebar{
+			padding-top: 52%;
+			margin: 20px;
+			font-size: 20px;
+		}
+		#sidebar img{
+			height: 300px;
+            width: 250px;
+			margin: 20px;
+			float: left;
 
+		}
 	</style>
 </head>
 <body style="background-color: blanchedalmond;">
 	<!--1-->
 	<div id="header" class="container-fluid bg-dark sticky-top header text-justify p-5">
-		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt9LOYm9Ca3Y1Lmk-k3CSK-UHRnvX92MxOk4HE2DwJ6g&s" alt="test"  class="img-thumbnai img-fluid">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt9LOYm9Ca3Y1Lmk-k3CSK-UHRnvX92MxOk4HE2DwJ6g&s" alt="test"  class="img-thumbnail img-fluid">
 		<a href="#About">Home</a>
-		<a href="#Contact">Contact</a>
-		<a href="#Services">Services</a>
-		<a href="#Portfolio">Portfolio</a>
 		<a href="#About">About</a>
+		<a href="#MyWork">MyWork</a>
+		<a href="#Services">Services</a>
+		<a href="#Contact">Contact</a>
 	</div>
 	<!--2-->
 	<div id="About">
 		<div id="bout_sect">
 			<br><br><br><br><br><br><br>
-			<h2>About</h2>
+			<h1>About</h1>
 			<h3>Good day! If you're looking for a commendable designs for your website, then you're in the right place!</h3>
-			<p>By the way, let me first introduce myself. My name is Rica Rose D. Cruz, I'm 19 years old. <br>I'm First year college and currently taking Bachelor of Science and Information Technology at Global Reciprocal Colleges.</p>
+			<p>By the way, let me first introduce myself. My name is Earl Vincent Co, I'm 18 years old. <br>I'm First year college and currently taking Bachelor of Science and Information Technology at Global Reciprocal Colleges.</p>
 		</div>
 	</div>
+	<div id="sidebar">
+		<img src="https://i.ytimg.com/vi/5w5cY-kxxQQ/maxresdefault.jpg" alt="motivation" class="img-thumbnail img-fluid">
+		<h3>About Me:</h3>
+		<p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Experience:</th>
+					<th></th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+	<div id="MyWork"></div>
 	<div id="Home" class="container-fluid">
 		<div class="container" id="test">
 			<h1>Hello! Welcome to My Portfolio</h1>
