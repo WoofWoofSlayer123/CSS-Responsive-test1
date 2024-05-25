@@ -32,6 +32,15 @@
 	flex-direction: column;
 	text-align: center;
 }
+#Home input[type=button]{
+    width: 50%;
+	color: white;
+	background-color: black;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	font-size: 14pt;
+}
 #About{
 	margin-top: 20px;
 	height: 100%;
