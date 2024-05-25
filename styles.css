@@ -170,15 +170,6 @@
 	background-color: #262626;
 	color: white;
 }
-.form input[type=button]{
-	width: 50%;
-	color: white;
-	background-color: black;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: none;
-	font-size: 14pt;
-}
 .form input:hover {
 	background-color: #0056b3;
 }
