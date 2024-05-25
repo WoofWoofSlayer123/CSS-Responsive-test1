@@ -8,8 +8,8 @@
 </head>
 <body style="background-color: blanchedalmond;">
 	<!--1-->
-	<div id="display_head" class="container-fluid bg-danger sticky-top header text-justify p-5">
-		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt9LOYm9Ca3Y1Lmk-k3CSK-UHRnvX92MxOk4HE2DwJ6g&s" alt="test"	  class="img-thumbnail img-fluid">
+	<div id="display_head" class="container-fluid bg-dark sticky-top header text-justify p-5">
+		<img src="https://th.bing.com/th/id/R.e4e62458a3dbf9cd1c614fdab28dc014?rik=CXZVyjeXqN231w&riu=http%3a%2f%2fmedia-cache-ec0.pinimg.com%2f736x%2f0f%2f79%2fe9%2f0f79e93958f7b87ac79bb3be9a69b1d1.jpg&ehk=NFU6BxzCwiifaWASM%2btd4z1hOzQKkWzfrTsJGpROOZs%3d&risl=&pid=ImgRaw&r=0" alt="img1"	  class="img-thumbnail img-fluid">
 		<a href="#About">Home</a>
 		<a href="#About">About</a>
 		<a href="#MyWork">MyWork</a>
@@ -26,7 +26,7 @@
 				<p>By the way, let me first introduce myself. My name is Earl Vincent Co, I'm 18 years old. <br>I'm First year 	college and currently taking Bachelor of Science and Information Technology at Global Reciprocal Colleges.</p>
 			</div>
 			<div id="about_sidebar">
-				<img src="https://i.ytimg.com/vi/5w5cY-kxxQQ/maxresdefault.jpg" alt="motivation" class="img-thumbnail img-fluid">
+				<img src="https://rare-gallery.com/thumbs/322677-Kim-Chaewon-IZONE-BloomIz-4K-iphone-wallpaper.jpg" alt="chaewon" class="img-thumbnail img-fluid">
 				<h2>About Me:</h2>
 				<p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and 		adaptable to all challenging situations. I am able to work well both in a team environment as well as using own 		initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
 				<div class="buttons">
@@ -56,7 +56,7 @@
 		</div>
 		<!--Portfolio-->
 		<div id="MyWork">
-			<h2 style="text-align: center;">My Portfolio:</h2>
+			<h2 style="text-align: center;padding-top: 8%;">My Portfolio:</h2>
 			<div class="work">
 				<a href="#"><h5>Layout Design:</h5></a>
 				<a href="#"><h5>Web Design:</h5></a>
@@ -85,11 +85,9 @@
 			</div>	
 		</div>
 		<div id="Contact">
-			<h2>Contact Me:</h2>
-			<h3>Email: princevincent0123@gmail.com</h3>
-				<h3>Contact No.: 0923-884-3043</h3>
 			<div class="form">
 				<form>
+                    <h2>Contact Me:</h2>
 					<label for="Name">Your Name:</label><br>
 					<input type="text" placeholder="Your Name" id="name" name="name"><br>
 					<label for="Name">Your E-mail:</label><br>
@@ -97,6 +95,8 @@
 					<label for="Name">Your Message:</label><br>
 					<input type="text" placeholder="Your Message" id="message" name="message" style="padding-bottom: 50px;"><br>
 					<input type="button" value="Submit" onclick="Submit()">
+                    <h3>Email: princevincent0123@gmail.com</h3>
+				    <h3>Contact No.: 0923-884-3043</h3>
 				</form>
 			</div>
 		</div>
@@ -129,7 +129,7 @@
 			var comment = document.getElementById("message").value;
                 if (name && comment) {
                     if (comment === comment) {
-                        window.alert("Thank you for your message ") + name;
+                        window.alert("Thank you for your message "+ name);
 					}
 				}
 			} 
